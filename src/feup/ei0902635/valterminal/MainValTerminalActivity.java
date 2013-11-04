@@ -33,7 +33,7 @@ public class MainValTerminalActivity extends Activity {
 		getMenuInflater().inflate(R.menu.main_val_terminal, menu);
 		return true;
 	}
-	
+
 	public class GetTicketInfo implements Runnable {
 
 		public void run() {
@@ -65,7 +65,7 @@ public class MainValTerminalActivity extends Activity {
 				if(payload.contains("noticket")){
 					result = "noticket";
 				}
-				else
+				else {
 					if(payload.contains("notvalid")){
 						result = "notvalid";
 					}
@@ -80,6 +80,7 @@ public class MainValTerminalActivity extends Activity {
 							time = "";
 						}
 					}
+				}
 			}
 			final String r = result;
 			final String t = time;

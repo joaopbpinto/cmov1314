@@ -18,5 +18,7 @@
     <string name="title_activity_main_inspector">MainActivity</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_main_val_terminal">MainValTerminalActivity</string>
+    <string name="title_activity_inspector_get_tickets">InspectorGetTicketsActivity</string>
+    <string name="title_activity_inspector_present_tickets">InspectorPresentTicketsActivity</string>
 
 </resources>

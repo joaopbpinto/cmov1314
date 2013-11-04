@@ -29,11 +29,6 @@
         <activity
             android:name="feup.ei0902635.passenger.RegisterActivity"
             android:label="Register User" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="feup.ei0902635.inspector.MainInspectorActivity"
@@ -42,6 +37,18 @@
         <activity
             android:name="feup.ei0902635.valterminal.MainValTerminalActivity"
             android:label="@string/title_activity_main_val_terminal" >
+        </activity>
+        <activity
+            android:name="feup.ei0902635.inspector.InspectorGetTicketsActivity"
+            android:label="@string/title_activity_inspector_get_tickets" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="feup.ei0902635.inspector.InspectorPresentTicketsActivity"
+            android:label="@string/title_activity_inspector_present_tickets" >
         </activity>
     </application>
 

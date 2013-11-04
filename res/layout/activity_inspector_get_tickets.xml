@@ -6,33 +6,35 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainInspectorActivity" >
+    tools:context=".InspectorGetTicketsActivity" >
+
+    <EditText
+        android:id="@+id/busID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textbusnumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="number" />
 
     <TextView
-        android:id="@+id/lblNameI"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:singleLine="true"
-        android:layout_marginTop="40dip"
-        android:layout_marginBottom="10dip"/>
-    
-    <Button
-        android:id="@+id/gettickets"
+        android:id="@+id/textbusnumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="92dp"
-        android:text="Get Tickets" />
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="32dp"
+        android:text="Bus Number" />
 
     <Button
-        android:id="@+id/validatetickets"
+        android:id="@+id/requestticketsfrombus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/gettickets"
-        android:layout_alignBottom="@+id/gettickets"
-        android:layout_toRightOf="@+id/gettickets"
-        android:text="Validate Tickets" />
+        android:layout_below="@+id/busnumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="Request Tickets" />
 
 </RelativeLayout>
