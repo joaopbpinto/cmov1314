@@ -1,4 +1,4 @@
-package feup.ei0902635;
+package feup.ei0902635.others;
 
 import feup.ei0902635.R;
 

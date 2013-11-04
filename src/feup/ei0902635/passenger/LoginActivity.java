@@ -1,4 +1,4 @@
-package feup.ei0902635;
+package feup.ei0902635.passenger;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,6 +9,8 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import feup.ei0902635.R;
+import feup.ei0902635.others.AlertDialogManager;
+import feup.ei0902635.others.SessionManager;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -39,7 +41,6 @@ public class LoginActivity extends Activity {
 		btnLogin = (Button) findViewById(R.id.btnLogin);
 		btnLogin.setOnClickListener(new View.OnClickListener() {
 			
-			@Override
 			public void onClick(View arg0) {
 				username = txtUsername.getText().toString();
 				password = txtPassword.getText().toString();

@@ -1,8 +1,10 @@
-package feup.ei0902635;
+package feup.ei0902635.passenger;
 
 import java.util.HashMap;
 
 import feup.ei0902635.R;
+import feup.ei0902635.others.AlertDialogManager;
+import feup.ei0902635.others.SessionManager;
 
 import android.app.Activity;
 import android.os.Bundle;

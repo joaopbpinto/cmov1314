@@ -1,4 +1,4 @@
-package feup.ei0902635;
+package feup.ei0902635.passenger;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,6 +9,7 @@ import java.net.URLEncoder;
 
 
 import feup.ei0902635.R;
+import feup.ei0902635.others.AlertDialogManager;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -127,8 +128,6 @@ public class RegisterActivity extends Activity {
 									alert.showAlertDialog(RegisterActivity.this, "Register failed..", "Credit Card expired", false);
 								}
 								else {
-									alert.showAlertDialog(RegisterActivity.this, "Register successful", "Register successfully done!", true);
-							        
 							        AlertDialog.Builder builder = new AlertDialog.Builder(RegisterActivity.this);
 							        builder.setTitle("Register successful")
 							        .setMessage("Register successfully done!")

@@ -1,6 +1,8 @@
-package feup.ei0902635;
+package feup.ei0902635.others;
 
 import java.util.HashMap;
+
+import feup.ei0902635.passenger.LoginActivity;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
