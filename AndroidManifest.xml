@@ -17,18 +17,24 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="feup.ei0902635.passenger.MainActivity"
-            android:label="Dashboard Screen" >
+            android:name="feup.ei0902635.passenger.MainActivityExample"
+            android:label="MainActivityExample" >
         </activity>
-
-        <!-- DashBoard / MainActivity -->
+        <activity
+            android:name="feup.ei0902635.passenger.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
         <activity
             android:name="feup.ei0902635.passenger.LoginActivity"
-            android:label="User Login" >
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name="feup.ei0902635.passenger.RegisterActivity"
-            android:label="Register User" >
+            android:label="@string/title_activity_register" >
         </activity>
         <activity
             android:name="feup.ei0902635.inspector.MainInspectorActivity"
@@ -41,14 +47,30 @@
         <activity
             android:name="feup.ei0902635.inspector.InspectorGetTicketsActivity"
             android:label="@string/title_activity_inspector_get_tickets" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="feup.ei0902635.inspector.InspectorPresentTicketsActivity"
             android:label="@string/title_activity_inspector_present_tickets" >
+        </activity>
+                <activity
+            android:name="feup.ei0902635.passenger.Buy"
+            android:label="@string/title_activity_buy" >
+        </activity>
+        <activity
+            android:name="feup.ei0902635.passenger.CheckBuy"
+            android:label="@string/title_activity_check_buy" >
+        </activity>
+        <activity
+            android:name="feup.ei0902635.passenger.Final"
+            android:label="@string/title_activity_final" >
+        </activity>
+        <activity
+            android:name="feup.ei0902635.passenger.Sucess"
+            android:label="@string/title_activity_tt" >
+        </activity>
+        <activity
+            android:name="feup.ei0902635.passenger.MyTickets"
+            android:label="@string/title_activity_my_tickets" >
         </activity>
     </application>
 

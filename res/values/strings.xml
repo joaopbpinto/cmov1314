@@ -20,5 +20,23 @@
     <string name="title_activity_main_val_terminal">MainValTerminalActivity</string>
     <string name="title_activity_inspector_get_tickets">InspectorGetTicketsActivity</string>
     <string name="title_activity_inspector_present_tickets">InspectorPresentTicketsActivity</string>
+    <string name="comprar">Buy</string>
+    <string name="meusBilhetes">My Tickets</string>
+    <string name="last">Last</string>
+    <string name="history">History</string>
+    <string name="title_activity_buy">Buy</string>
+    <string name="t1">T1</string>
+    <string name="t2">T2</string>
+    <string name="t3">T3</string>
+    <string name="title_activity_check_buy">CheckBuy</string>
+    <string name="bilhetes">Tickets</string>
+    <string name="confirma">Confirm</string>
+    <string name="title_activity_final">Final</string>
+    <string name="title_activity_tt">TT</string>
+    <string name="Sucesso">Success</string>
+    <string name="Casa">Home</string>
+    <string name="title_activity_my_tickets">MyTickets</string>
+    <string name="title_activity_login">User Login</string>
+    <string name="title_activity_register">Register User</string>
 
 </resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="comprar">Comprar</string>
+ 	<string name="meusBilhetes">Meus Bilhetes</string>
+ 	<string name="last">Último</string>
+ 	<string name="history">Histórico</string>
+ 	<string name="t1">T1</string>
+    <string name="t2">T2</string>
+    <string name="t3">T3</string>
+    <string name="bilhetes">Bilhetes</string>
+    <string name="confirma">Confirmar</string>
+    <string name="Sucesso">Sucesso</string>
+    <string name="Casa">Página Inicial</string>
+</resources>
+
