@@ -1,14 +1,20 @@
 package feup.ei0902635.others;
 
 public class Ticket {
-	private String id = "";
-	private String type = "";
-	private String time = "";
+	private String id;
+	private String type;
+	private String time;
+	private String idb;
 
-	public Ticket(String i, String ty, String ti){
+	public Ticket(String i, String ty, String ti, String ib){
 		id = i;
 		type = ty;
 		time = ti;
+		idb = ib;
+	}
+	
+	public Ticket(String i){
+		id = i;
 	}
 	
 	public String getId() {
@@ -34,8 +40,19 @@ public class Ticket {
 	public void setTime(String time) {
 		this.time = time;
 	}
+	
+	public String getIdb() {
+		return idb;
+	}
+
+	public void setIdb(String idb) {
+		this.idb = idb;
+	}
 
 	public String toString() {
-		return (getId() + " - " + getType() + " - " + getTime());
+		if(type.isEmpty() || time.isEmpty())
+			return (getId() + " - T" + getType());
+		else
+			return (getIdb() + ": " + getId() + " - T" + getType() + " - " + getTime());
 	}
 }

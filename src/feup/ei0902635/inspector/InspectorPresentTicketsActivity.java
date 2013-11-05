@@ -104,7 +104,7 @@ public class InspectorPresentTicketsActivity extends Activity {
 								e.printStackTrace();
 							}
 							try {
-								Ticket t = new Ticket(json_data.getString("idb"), json_data.getString("typeticket"), json_data.getString("timevalidation"));
+								Ticket t = new Ticket(json_data.getString("idb"), json_data.getString("typeticket"), json_data.getString("timevalidation"), json_data.getString("idbus"));
 								tickets.add(t);
 							} catch (JSONException e) {
 								e.printStackTrace();
